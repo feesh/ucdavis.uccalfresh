@@ -1,0 +1,46 @@
+
+/* General */
+html, body {
+    margin: 0 auto;
+    padding:0;
+    background: url(../images/lightwool.png);
+  	font-family: Helvetica Neue, Helvetica Std, Helvetica, Arial, sans serif;
+    font-weight:normal;
+    text-decoration:none;
+    width: 1000px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+}
+
+
+
+/* Layout */
+#wrapper {background: #fff; box-shadow: 0px 0px 6px #ccc; height: 100%; width: 1040px;}
+
+#header {padding: 45px 20px 0;}
+#header #logo {display: inline-block; width: 420px; margin-right: 260px;}
+#header nav {display: inline-block; width: 300px;}
+
+#splash {margin-top: 45px; padding: 0 20px;}
+#splash nav {display: inline-block; width: 210px; margin-right: 80px;}
+#splash #slideshow {display: inline-block; width: 660px;}
+
+#content {}
+
+
+
+/* nav */
+nav ul {margin: 0; padding: 0;}
+nav li {list-style: none;}
+
+#header nav {vertical-align: top;}
+#header nav li {display: inline-block; width: 140px; font-size: .8em;}
+
+#splash nav {vertical-align: top;}
+#splash nav li {display: block; background: #002757; border: 1px solid #fff; text-transform: uppercase;}
+#splash nav li a {display: block; color: #fff; font-family: Futura Std; height: 25px; width: 190px; padding: 25px 0 0 20px;}
