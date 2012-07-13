@@ -3,7 +3,7 @@
 html, body {
     margin: 0 auto;
     padding:0;
-    background: url(../images/lightwool.png);
+    background: url(images/lightwool.png);
   	font-family: Helvetica Neue, Helvetica Std, Helvetica, Arial, sans serif;
     font-weight:normal;
     text-decoration:none;
@@ -16,11 +16,14 @@ a {
 
 a:hover {
 }
+.clear {clear: both;}
 
+
+h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Helvetica, Helvetica Neue, sans-serif;}
 
 
 /* Layout */
-#wrapper {background: #fff; box-shadow: 0px 0px 6px #ccc; height: 100%; width: 1040px;}
+#wrapper {background: #fff; box-shadow: 0px 0px 6px #ccc; height: 100%; width: 1040px; margin-bottom: 20px;}
 
 #header {padding: 45px 20px 0;}
 #header #logo {display: inline-block; width: 420px; margin-right: 260px;}
@@ -30,7 +33,10 @@ a:hover {
 #splash nav {display: inline-block; width: 210px; margin-right: 80px;}
 #splash #slideshow {display: inline-block; width: 660px;}
 
-#content {}
+#content {padding: 0 10px;}
+
+/* Front page specific */
+.section-front-page #portal-breadcrumbs {display: none;}
 
 
 
@@ -43,4 +49,16 @@ nav li {list-style: none;}
 
 #splash nav {vertical-align: top;}
 #splash nav li {display: block; background: #002757; border: 1px solid #fff; text-transform: uppercase;}
-#splash nav li a {display: block; color: #fff; font-family: Futura Std; height: 25px; width: 190px; padding: 25px 0 0 20px;}
+#splash nav li a {border-bottom: 3px solid #002757; display: block; color: #fff; font-family: Futura Std; height: 25px; width: 188px; padding: 25px 0 0 20px;}
+#splash nav li a:hover {border-bottom: 3px solid #e1bc00; color: #e1bc00;}
+
+
+/* Portlets */
+dl.portlet dt, div.portletAssignments div.portletHeader {
+	font-family: "futura-pt", Helvetica, Helvetica Neue, sans-serif;
+	font-size: 1.2em;
+	background: #002757; padding: 15px 10px 5px; border-bottom: 3px solid #e1bc00; color: #fff;}
+
+dl.portlet {background: #f7f6f6; border: 1px solid #e6e6e6; min-height: 220px;}
+
+
