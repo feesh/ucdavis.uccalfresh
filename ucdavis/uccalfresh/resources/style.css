@@ -10,12 +10,9 @@ html, body {
     width: 1000px;
 }
 
-a {
-	text-decoration: none;
-}
+a {text-decoration: none;}
 
-a:hover {
-}
+a:hover {color: #e1bc00;}
 .clear {clear: both;}
 
 
@@ -33,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Helvetica, Helvetica Neue, san
 #splash nav {display: inline-block; width: 210px; margin-right: 80px;}
 #splash #slideshow {display: inline-block; width: 660px;}
 
-#content {padding: 0 10px;}
+#portal-breadcrumbs, #content {padding: 0 10px;}
+#portal-breadcrumbs {margin-top: 2em;}
 
 /* Front page specific */
 .section-front-page #portal-breadcrumbs {display: none;}
@@ -49,7 +47,7 @@ nav li {list-style: none;}
 
 #splash nav {vertical-align: top;}
 #splash nav li {display: block; background: #002757; border: 1px solid #fff; text-transform: uppercase;}
-#splash nav li a {border-bottom: 3px solid #002757; display: block; color: #fff; font-family: Futura Std; height: 25px; width: 188px; padding: 25px 0 0 20px;}
+#splash nav li a {border-bottom: 3px solid #002757; display: block; color: #fff; font-family: Futura Std; height: 22px; width: 188px; padding: 25px 0 0 20px;}
 #splash nav li a:hover {border-bottom: 3px solid #e1bc00; color: #e1bc00;}
 
 
