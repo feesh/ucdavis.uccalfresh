@@ -20,7 +20,7 @@
     <replace css:content="#portal-columns" css:theme="#content" />
 
     <replace content='//*[@id="portal-globalnav"]' theme='//*[@class="primarynav"]' />
-    <replace css:content="#portal-globalnav li" css:theme-children="#splash nav ul" />
+    <replace css:content="#portal-globalnav li:first-child" css:theme-children="#splash nav ul" />
 
 
 
