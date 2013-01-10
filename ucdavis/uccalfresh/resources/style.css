@@ -56,7 +56,7 @@ nav li {list-style: none;}
 #splash nav li:hover ul.submenu {text-indent: 0; width: auto;}
 #splash nav li ul.submenu {text-indent: -9999px; position: absolute; z-index: 50; top: -1px; left: 208px; overflow: hidden; width: 0px;}
 #splash nav li ul.submenu li {background: #004c85; font-size: .8em; text-transform: none; width: 208px;}
-#splash nav li ul.submenu li a {border-bottom: 3px solid #004c85; height: 50px; padding: 10px 0 0 20px; vertical-align: bottom; display: table-cell;}
+#splash nav li ul.submenu li a {border-bottom: 3px solid #004c85; height: 37px; padding: 10px 0 0 20px; vertical-align: bottom; display: table-cell;}
 #splash nav li ul.submenu li a:hover {border-bottom: 3px solid #e1bc00;}
 
 
