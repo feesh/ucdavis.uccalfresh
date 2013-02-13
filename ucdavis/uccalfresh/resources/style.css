@@ -46,8 +46,8 @@ nav li {list-style: none;}
 #header nav li {display: inline-block; width: 140px; font-size: .8em;}
 
 #splash nav {vertical-align: top; z-index: 30;}
-#splash nav li {display: inline-block; background: #002757; border: 1px solid #fff; text-transform: uppercase;}
-#splash nav li a {border-bottom: 3px solid #002757; display: block; color: #fff; font-family: Futura Std; line-height: .9em; font-size: 0.8em; letter-spacing: 1px; height: 15px; width: 125px; padding: 15px 0 0 10px;}
+#splash nav li {display: inline-block; background: #002757; border: 1px solid #fff; text-transform: uppercase; text-align: center;}
+#splash nav li a {border-bottom: 3px solid #002757; display: block; color: #fff; font-family: Futura Std; line-height: .9em; font-size: 0.8em; letter-spacing: 1px; height: 15px; width: 125px; padding: 15px 5px 0 5px;}
 #splash nav li:hover {background: #004c85;}
 #splash nav li:hover a {border-bottom: 3px solid #004c85;}
 #splash nav li a:hover {border-bottom: 3px solid #e1bc00; color: #e1bc00;}
@@ -55,8 +55,8 @@ nav li {list-style: none;}
 #splash nav li {position: relative;}
 #splash nav li:hover ul.submenu {text-indent: 0; width: auto;}
 #splash nav li ul.submenu {text-indent: -9999px; position: absolute; z-index: 50; top: 34px; left: -1px; overflow: hidden; width: 0px;}
-#splash nav li ul.submenu li {background: #004c85; font-size: .9em; text-transform: none;}
-#splash nav li ul.submenu li a {border-bottom: 3px solid #004c85; height: 37px; padding: 10px 10px 0 10px; vertical-align: bottom; display: table-cell;}
+#splash nav li ul.submenu li {background: #004c85; text-transform: none; text-align: left;}
+#splash nav li ul.submenu li a {border-bottom: 3px solid #004c85; padding: 10px 10px 0 10px; letter-spacing: 0px; font-size: .85em; line-height: 1.1em; vertical-align: bottom; display: table-cell;}
 #splash nav li ul.submenu li a:hover {border-bottom: 3px solid #e1bc00;}
 
 
