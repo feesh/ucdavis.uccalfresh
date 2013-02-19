@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Futura, Futura Std, Helvetica,
 #wrapper {background: #fff; box-shadow: 0px 0px 6px #ccc; height: 100%; width: 1040px; margin-bottom: 20px;}
 
 #header {padding: 45px 20px 0;}
-#header #logo {display: inline-block; width: 420px; margin-right: 260px;}
+#header #portal-logo {display: inline-block; width: 420px; margin-right: 260px;}
 #header nav {display: inline-block; width: 300px;}
 
 #splash {margin-top: 15px; padding: 0 20px;}
