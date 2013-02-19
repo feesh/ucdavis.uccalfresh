@@ -13,6 +13,7 @@
 
     <!-- content area -->
     <copy content='//*[@id="front-page-image"]' theme='//*[@id="front-page-image"]' />
+    <replace css:content='#portal-logo' css:theme='#logo' />
 
 
     <merge attributes="class" css:content="body" css:theme="body" />

@@ -16,7 +16,7 @@ a:hover {color: #e1bc00;}
 .clear {clear: both;}
 
 
-h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Helvetica, Helvetica Neue, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Futura, Futura Std, Helvetica, Helvetica Neue, sans-serif;}
 
 
 /* Layout */
@@ -62,7 +62,7 @@ nav li {list-style: none;}
 
 /* Portlets */
 dl.portlet dt, div.portletAssignments div.portletHeader {
-	font-family: "futura-pt", Helvetica, Helvetica Neue, sans-serif;
+	font-family: "futura-pt", Futura, Futura Std, Helvetica, Helvetica Neue, sans-serif;
 	font-size: 1.2em;
 	background: #002757; padding: 15px 10px 5px; border-bottom: 3px solid #e1bc00; color: #fff;}
 
