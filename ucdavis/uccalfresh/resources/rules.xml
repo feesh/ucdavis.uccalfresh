@@ -23,7 +23,7 @@
     <copy css:content=".portlet-static-top-nav ul" css:theme="ul#secondarynav" />
 
     <replace content='//*[@id="portal-globalnav"]' theme='//*[@class="primarynav"]' />
-    <replace css:content="#portal-globalnav li" css:theme-children="#splash nav ul" />
+    <replace css:content="#portal-globalnav li.toplevel" css:theme-children="#splash nav ul" />
 
 
 
