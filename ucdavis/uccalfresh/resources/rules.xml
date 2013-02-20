@@ -9,7 +9,7 @@
 
     <!-- head -->
     <replace content='/html/head/title' theme='/html/head/title' />
-    <before css:content="head link" css:theme="head link" />    
+    <before css:content="head style, head link, head script, head meta" css:theme-children="head"/>
 
     <!-- content area -->
     <copy content='//*[@id="front-page-image"]' theme='//*[@id="front-page-image"]' />
