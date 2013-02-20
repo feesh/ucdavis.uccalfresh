@@ -58,6 +58,7 @@ nav li {list-style: none;}
 #splash nav li ul.submenu li {background: #004c85; text-transform: none; text-align: left;}
 #splash nav li ul.submenu li a {border-bottom: 3px solid #004c85; padding: 10px 10px 0 10px; letter-spacing: 0px; font-size: .85em; line-height: 1.1em; vertical-align: bottom; display: table-cell;}
 #splash nav li ul.submenu li a:hover {border-bottom: 3px solid #e1bc00;}
+#splash nav li:hover > ul.submenu {display: block;}
 
 
 /* Portlets */
