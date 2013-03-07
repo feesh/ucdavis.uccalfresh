@@ -21,7 +21,8 @@ h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Futura, Futura Std, Helvetica,
 
 /* Layout */
 #wrapper {background: #fff; box-shadow: 0px 0px 6px #ccc; height: 100%; width: 1040px; margin-bottom: 20px;}
-#footer {width: 1040px; margin-bottom: 10px;}
+#footer {width: 1040px; font-size: .8em;}
+#portlets-footer {margin-bottom: 10px;}
 
 #header {padding: 45px 20px 0;}
 #header #portal-logo {display: inline-block; width: 420px; margin: 0 260px 0 0;}
