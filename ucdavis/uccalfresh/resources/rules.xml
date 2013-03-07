@@ -26,6 +26,7 @@
     <replace content='//*[@id="portal-globalnav"]' theme='//*[@class="primarynav"]' />
     <replace css:content="#portal-globalnav li.toplevel" css:theme-children="#splash nav ul" />
 
+    <copy css:content="#portlets-footer" css:theme="#footcontent" />
 
 
     <replace content='//*[@id="portal-globalnav"]' 
