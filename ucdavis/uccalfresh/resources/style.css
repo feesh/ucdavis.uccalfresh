@@ -56,10 +56,10 @@ nav li {list-style: none;}
 
 #splash nav {vertical-align: top; z-index: 30;}
 #splash nav li {display: inline-block; background: #002757; border: 1px solid #fff; text-transform: uppercase; text-align: center;}
-#splash nav li a {border-bottom: 3px solid #002757; display: block; color: #fff; font-family: "futura-pt", Futura Std; line-height: .9em; font-size: 0.8em; letter-spacing: 1px; height: 15px; width: 130px; padding: 15px 5px 0 5px;}
+#splash nav li a {border-bottom: 3px solid #002757; display: block; color: #fff !important; font-family: "futura-pt", Futura Std; line-height: .9em; font-size: 0.8em; letter-spacing: 1px; height: 15px; width: 130px; padding: 15px 5px 0 5px;}
 #splash nav li:hover {background: #004c85;}
 #splash nav li:hover a {border-bottom: 3px solid #004c85;}
-#splash nav li a:hover {border-bottom: 3px solid #e1bc00; color: #e1bc00;}
+#splash nav li a:hover {border-bottom: 3px solid #e1bc00; color: #e1bc00 !important;}
 
 #splash nav li {position: relative;}
 #splash nav li:hover ul.submenu {text-indent: 0; width: auto;}
