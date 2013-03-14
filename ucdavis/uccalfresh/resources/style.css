@@ -37,7 +37,8 @@ h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Futura, Futura Std, Helvetica,
 
 /* Front page specific */
 .section-front-page #portal-breadcrumbs {display: none;}
-
+#edit-bar {clear: both;}
+#portal-personaltools {right: 25px;}
 
 
 /* nav */
