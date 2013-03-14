@@ -32,12 +32,12 @@ h1, h2, h3, h4, h5, h6 {font-family: "futura-pt", Futura, Futura Std, Helvetica,
 #splash nav {display: inline-block;}
 #splash #slideshow {display: inline-block; width: 660px;}
 
-#portal-breadcrumbs, #content {padding: 0 10px;}
+#portal-breadcrumbs, #mainarea {padding: 0 10px;}
 #portal-breadcrumbs {margin-top: 2em;}
 
 /* Front page specific */
 .section-front-page #portal-breadcrumbs {display: none;}
-#edit-bar, #content ul.formTabs {clear: both;}
+#edit-bar, #mainarea ul.formTabs {clear: both;}
 #portal-personaltools {right: 25px;}
 
 

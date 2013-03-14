@@ -19,7 +19,7 @@
 
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
-    <replace css:content="#portal-columns" css:theme="#content" />
+    <replace css:content="#portal-columns" css:theme="#mainarea" />
 
     <copy css:content=".portlet-static-top-nav ul" css:theme="ul#secondarynav" />
     <append css:content="#portal-searchbox" css:theme="ul#secondarynav" />
