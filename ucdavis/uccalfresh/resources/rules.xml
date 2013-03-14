@@ -15,6 +15,7 @@
     <copy content='//*[@id="front-page-image"]' theme='//*[@id="front-page-image"]' />
     <replace css:content='#portal-logo' css:theme='#logo' />
 
+    <replace css:content="#portal-personaltools-wrapper" css:theme="#login" />
 
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
