@@ -48,7 +48,7 @@ nav li {list-style: none;}
 #header nav {vertical-align: top;}
 #header nav li {display: inline-block; width: 140px; font-size: .8em; vertical-align: top; height: 20px;}
 
-#portal-searchbox {margin: 0; margin-top: -1.5em;}
+#portal-searchbox {margin: 0;}
 .searchSection {display: none;}
 #searchGadget {width: 12em;}
 .searchButton {display: none;}
