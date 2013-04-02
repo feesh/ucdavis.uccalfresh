@@ -88,7 +88,7 @@ dl.portlet.slideshowPortlet dd.portletItem {padding: 0px;}
 
 /* --- browser hacks --- */
 .ie8 #wrapper {border-left: 1px solid #ddd; border-right: 1px solid #ddd;}
-.ie8 #primarynav li {display: inline-block; background: ##002757;}
+.ie8 #primarynav li#portaltab-weekly-updates {font-size: .9em;}
 
 
 
