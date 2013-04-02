@@ -96,5 +96,6 @@ dl.portlet.slideshowPortlet dt.portletHeader {display: none;}
 .ie7 #portal-searchbox, .ie7 ul.submenu {display: none;}
 .ie7 #primarynav li {font-size: .8em;}
 .ie7 #splash nav li ul.submenu {z-index: 1000; position: relative;}
+.ie7 #splash nav li:hover ul.submenu {text-indent: -9999px;}
 
 
