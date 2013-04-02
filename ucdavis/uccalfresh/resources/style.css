@@ -7,7 +7,7 @@ html, body {
   	font-family: Helvetica Neue, Helvetica Std, Helvetica, Arial, sans-serif;
     font-weight:normal;
     text-decoration:none;
-    width: 1000px;
+    width: 1040px;
 }
 
 a {text-decoration: none;}
@@ -83,5 +83,13 @@ dl.portlet {background: #f7f6f6; border: 1px solid #e6e6e6; min-height: 220px;}
 dl.portlet.slideshowPortlet {background: transparent; border: 0px; min-height: 0px;}
 dl.portlet.slideshowPortlet dt {background: transparent; border: 0px; min-height: 0px; padding: 0px;}
 dl.portlet.slideshowPortlet dd.portletItem {padding: 0px;}
+
+
+
+/* --- browser hacks --- */
+.ie8 #wrapper {border-left: 1px solid #bbb; border-right: 1px solid #bbb;}
+.ie8 #primarynav li {display: inline-block; background: ##002757;}
+
+
 
 
