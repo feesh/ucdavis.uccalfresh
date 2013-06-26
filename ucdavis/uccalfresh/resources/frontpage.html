@@ -105,6 +105,29 @@
     <div id="footcontent"></div>
 </section>
 
+
+<!-- code to enable nivo slider -->
+<script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 1000, // Slide transition speed
+        pauseTime: 5000, // How long each slide will show
+        directionNav: false, // Next & Prev navigation
+        controlNav: false, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: false, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+    });
+});
+</script>
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
