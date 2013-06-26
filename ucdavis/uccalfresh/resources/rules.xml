@@ -4,6 +4,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 
+    <theme href="frontpage.html" css:if-content=".section-front-page #visual-portal-wrapper" />
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
 
